@@ -24,10 +24,12 @@ def rm_dup(path):
             for f in files:
                 filePath=os.path.join(root,f)
                 md5Hash=md5(filePath)
-                if not md5Hash in md5_dict:
-                    md5_dict.update({md5Hash:[filePath]})
+                size=os.path.getsize(filePath)
+                fileComb=str(md5Hash)+str(size)
+                if not fileComb in md5_dict:
+                    md5_dict.update({fileComb:[filePath]})
                 else:
-                    md5_dict[md5Hash].append(filePath)
+                    md5_dict[fileComb].append(filePath)
         for key in md5_dict:
             while len(md5_dict[key])>1:
                 for item in md5_dict[key]:
