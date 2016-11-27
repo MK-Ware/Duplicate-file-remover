@@ -21,7 +21,7 @@ def rm_dup(path):
         exp_list=[]
         if input('Would you like to ignore a certain file-type (y)es or (n)o? ')[0].lower()=='y':
             exp_list=input(r'''Please enter the file extension, eg: .doc or .py.
-To ignore more than one type, use spaces to separate the extensions''').split(' ')
+To ignore more than one type, use spaces to separate the extensions.  ''').split(' ')
         print()
         print('Working...')
         print()
