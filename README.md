@@ -8,3 +8,5 @@ Big thanks to the guys at codereview.stackexchange.com for great suggestions.
 Hope you find it useful.
 
 Update: Because 2 different files of different lengths (i.e size) can yield the same md5 checksum, I added file size checking to the program. 2 files can't have the same size and the same md5 checksum unless they have the same content.
+
+Update: Added a new feature; now the user can choose to ignore certain file extensions (.rar .py ...etc).
