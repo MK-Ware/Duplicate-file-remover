@@ -10,3 +10,11 @@ Hope you find it useful.
 Update: Because 2 different files of different lengths (i.e size) can yield the same md5 checksum, I added file size checking to the program. The odds of 2 different files of different sizes generating the same md5 hash code are negligibly small. You'd need 2^64 files before there's a 50% chance. Even if those were 1KB text files they'd need a couple servers to house them.
 
 Update: Added a new feature; now the user can choose to ignore certain file extensions (.rar .py ...etc).
+
+# Usage:
+
+python pyspace.py -p [target path to clean] -e [(optional) file extensions to ignore separated by a -..
+
+eg: python pyspace.py -p d:\ or /user/ -e .py-.doc-.pdf
+
+for more details python pyspace.py -h
