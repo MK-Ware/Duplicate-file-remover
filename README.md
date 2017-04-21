@@ -13,7 +13,7 @@ Update: Added a new feature; now the user can choose to ignore certain file exte
 
 # Usage:
 
-python pyspace.py -p [target path to clean] -e [(optional) file extensions to ignore separated by a -..
+python pyspace.py -p [target path to clean] -e [(optional) file extensions to ignore separated by a -]..
 
 eg: python pyspace.py -p d:\ or /user/ -e .py-.doc-.pdf
 
