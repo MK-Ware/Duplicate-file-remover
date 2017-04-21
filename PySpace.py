@@ -59,7 +59,7 @@ To ignore more than one type, use spaces to separate the extensions.  ''').split
 if __name__=='__main__':
     print('=======A simple Python script to remove duplicate files===========')
     print()
-    print('============Coded by MCoury AKA python-scripter===================')
+    print('=====================Coded by monrocoury==========================')
     print()
     print('===========The script counts on the fact the fact=================')
     print('=========that if 2 files have the same md5checksum================')
