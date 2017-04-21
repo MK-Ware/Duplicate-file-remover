@@ -1,4 +1,5 @@
-#A simple Python script to remove duplicate files...Coded by MCoury AKA python-scripter
+#!/usr/bin/env python
+#A simple Python script to remove duplicate files...Coded by MCoury
 import hashlib
 import os
 
