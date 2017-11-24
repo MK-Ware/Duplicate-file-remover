@@ -17,4 +17,6 @@ python pyspace.py -p [target path to clean] -e [(optional) file extensions to ig
 
 eg: python pyspace.py -p d:\ or /user/ -e .py-.doc-.pdf
 
+The script will display the duplicate files it detected and ask the user to confirm the deletion, if the user confirms, it will leave a copy of every file and remove everything else.
+
 for more details python pyspace.py -h
