@@ -18,7 +18,7 @@ eg: python pyspace.py -p d:\ or /user/ -e .py-.doc-.pdf
 
 for more details python pyspace.py -h
 
-_________________________________________________________________________________________________________
+_______________________________________________________________________________________________________
 
-* Kudos top the nice guys at codereview.stackexchange.com for their very helpful suggestions!
+* Kudos to the nice guys at codereview.stackexchange.com for their very helpful suggestions!
 * Hope you find it useful! Don't forget to star the repo if you do..
